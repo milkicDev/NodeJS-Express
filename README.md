@@ -1,6 +1,6 @@
 # NodeJS - Express - MongoDB
 
-[![NodeJS Logo](https://nodejs.org/static/images/logo.svg =100x40)] [![MongoDB Logo](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png =100x40)]
+[![NodeJS Logo](https://nodejs.org/static/images/logo.svg){ height=50px }] [![MongoDB Logo](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png){ height=50px }]
 
 ## Features
 
