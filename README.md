@@ -12,3 +12,12 @@
 - `npm install`
 - [Install & Start MongoDB](https://docs.mongodb.com/manual/tutorial/getting-started/)
 - `npm start`
+
+## Routes
+
+- [localhost:3000](http://localhost:3000)
+  - `/users`
+    - `/ID`
+    - `/create`
+    - `/edit/ID`
+    - `/destroy/ID`
