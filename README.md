@@ -1,8 +1,7 @@
 # NodeJS - Express - MongoDB
 
-![NodeJS Logo](https://nodejs.org/static/images/logo.svg | height=50) ![MongoDB Logo](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png =100x50)
-
 <img src="https://nodejs.org/static/images/logo.svg" alt="NodeJS Logo" height="50px">
+<img src="https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png" alt="MongoDB Logo" height="50px">
 
 ## Features
 
