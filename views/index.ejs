@@ -1,0 +1,21 @@
+<div class="container text-center py-5">
+  <h1><%= Settings.title.value %></h1>
+  <p>Welcome to <%= Settings.title.value %></p>
+
+  <div class="dropdown">
+    <button
+      class="btn btn-primary dropdown-toggle"
+      type="button"
+      id="dropdownUsers"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      Users
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownUsers">
+      <a class="dropdown-item" href="/users">List</a>
+      <a class="dropdown-item" href="/users/create">Create</a>
+    </div>
+  </div>
+</div>

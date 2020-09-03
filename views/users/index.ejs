@@ -1,0 +1,54 @@
+<div class="container py-5">
+  <div class="w-50"><%- include('../partials/errors.ejs') %></div>
+  <% if (users.length > 0) { %>
+  <div class="card shadow bg-white mx-auto border-0">
+    <div class="card-body">
+      <div class="text-center">
+        <h5 class="card-title mb-0 text-dark">Users List</h5>
+      </div>
+      <hr class="w-25" />
+
+      <div class="my-2 text-right">
+        <a class="btn btn-link btn-sm text-dark text-uppercase" href="/"
+          >Back</a
+        >
+        <a class="btn btn-primary btn-sm text-uppercase" href="/users/create"
+          >Create</a
+        >
+      </div>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>Name</th>
+            <th>E-mail</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (let i = 0; i < users.length; i++) { %>
+          <tr>
+            <td>
+              <a href="/users/<%= users[i]._id%>" class="d-block"
+                ><%= users[i].username %></a
+              >
+            </td>
+            <td>
+              <a href="/users/<%= users[i]._id%>" class="d-block"
+                ><%= users[i].firstName + " " + users[i].lastName %></a
+              >
+            </td>
+            <td>
+              <a href="/users/<%= users[i]._id%>" class="d-block"
+                ><%= users[i].email %></a
+              >
+            </td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <% } else { %>
+  <div>No users found.</div>
+  <% } %>
+</div>
