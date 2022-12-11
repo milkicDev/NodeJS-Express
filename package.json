@@ -13,7 +13,7 @@
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "ejs-locals": "^1.0.2",
-    "express": "~4.16.1",
+    "express": "~4.18.2",
     "express-ejs-layouts": "^2.5.0",
     "express-handlebars": "^5.1.0",
     "express-layout": "^0.1.0",
